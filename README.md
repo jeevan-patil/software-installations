@@ -19,3 +19,15 @@ node -v
 You should see output something like this
 
 ![alt text](https://github.com/jeevan-patil/software-installations/blob/master/pics/node.png)
+
+#### 2 Install Shutter - Screenshot tool
+
+To install:
+```
+sudo add-apt-repository ppa:shutter/ppa
+sudo apt-get update && sudo apt-get install shutter
+```
+To Uninstall:
+```
+sudo apt-get remove shutter
+```
