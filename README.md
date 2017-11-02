@@ -17,3 +17,5 @@ You can see node_8.x in the URL, replace it with the latest version available. T
 node -v
 ```
 You should see output something like this
+
+![alt text](https://github.com/jeevan-patil/software-installations/blob/master/pics/node.png)
