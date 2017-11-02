@@ -2,7 +2,20 @@
 
 This document is to store guidelines to install most commonly used softwares on ubuntu operating system.
 
-#### 1 Install latest nodejs
+#### 1 Installing Oracle JDK
+```
+sudo add-apt-repository ppa:webupd8team/java
+sudo apt-get update
+sudo apt-get install oracle-java8-installer
+```
+
+for Java 6, use ``` sudo apt-get install oracle-java6-installer ```
+for Java 7, use ``` sudo apt-get install oracle-java7-installer ```
+
+To check if it's installed properly, use java -version command. You should something like - 
+![alt text](https://github.com/jeevan-patil/software-installations/blob/master/pics/java.png)
+
+#### 2 Install latest nodejs
 
 ```
 sudo apt-key adv --keyserver keyserver.ubuntu.com --recv 68576280
@@ -20,7 +33,7 @@ You should see output something like this
 
 ![alt text](https://github.com/jeevan-patil/software-installations/blob/master/pics/node.png)
 
-#### 2 Install Shutter - Screenshot tool
+#### 3 Install Shutter - Screenshot tool
 
 To install:
 ```
